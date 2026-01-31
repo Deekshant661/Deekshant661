@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Deekshant Tilwani</h1>
-<h3 align="center">A passionate Development and Data Enthusiast from India.</h3>
+<h1 align="center">Hello, I'm Deekshant </h1>
+<h3 align="center">A programmer.</h3>
 
 <img align="right" alt="coding" width="400" src="https://imarticus.org/blog/wp-content/uploads/2020/09/gtr.gif">
 
