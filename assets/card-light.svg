@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="848" height="340" viewBox="0 0 848 340" role="img" aria-label="Character card. Deekshant Tilwani, class: infrastructure, level 4. Cloud 9, Backend 7, Data 6, Sarcasm 10.">
+  <style>
+    .s { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-variant-numeric: tabular-nums; }
+    .bar { transform-box: fill-box; transform-origin: left; animation: fill 1.4s cubic-bezier(.2,.7,.2,1) both; }
+    .b2 { animation-delay: .15s } .b3 { animation-delay: .3s } .b4 { animation-delay: .45s }
+    .shine { animation: shine 6s ease-in-out infinite; }
+    @keyframes fill { from { transform: scaleX(0) } }
+    @keyframes shine { 0%, 80% { transform: translateX(-120px) } 100% { transform: translateX(260px) } }
+    @media (prefers-reduced-motion: reduce) { .bar, .shine { animation: none } }
+  </style>
+  <defs>
+    <clipPath id="portrait"><rect x="32" y="32" width="200" height="276" rx="10"/></clipPath>
+    <linearGradient id="glint" x1="0" x2="1"><stop offset="0" stop-color="#1f2328" stop-opacity="0"/><stop offset=".5" stop-color="#1f2328" stop-opacity=".07"/><stop offset="1" stop-color="#1f2328" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M12 0H0V12" fill="none" stroke="#d1d9e0" stroke-width=".6"/></pattern>
+  </defs>
+
+  <rect x="1" y="1" width="846" height="338" rx="14" fill="#ffffff" stroke="#d1d9e0" stroke-width="1.5"/>
+
+  <!-- portrait -->
+  <g clip-path="url(#portrait)">
+    <rect x="32" y="32" width="200" height="276" fill="#f6f8fa"/>
+    <rect x="32" y="32" width="200" height="276" fill="url(#grid)"/>
+    <text x="132" y="190" text-anchor="middle" class="s" font-size="88" font-weight="700" fill="#1f2328" letter-spacing="-4">DT</text>
+    <rect class="shine" x="32" y="32" width="90" height="276" fill="url(#glint)" transform="skewX(-12)"/>
+  </g>
+  <rect x="32" y="32" width="200" height="276" rx="10" fill="none" stroke="#d1d9e0"/>
+  <text x="48" y="58" class="m" font-size="11" fill="#59636e">#0661</text>
+  <text x="216" y="58" text-anchor="end" class="m" font-size="11" fill="#9a6700">★ RARE</text>
+  <text x="132" y="290" text-anchor="middle" class="m" font-size="11" fill="#59636e">noida · ap-south-1</text>
+
+  <!-- identity -->
+  <text x="264" y="66" class="s" font-size="30" font-weight="650" fill="#1f2328" letter-spacing="-.6">Deekshant Tilwani</text>
+  <text x="816" y="66" text-anchor="end" class="m" font-size="13" fill="#59636e">LV <tspan fill="#1f2328" font-weight="700">4</tspan></text>
+  <text x="264" y="92" class="s" font-size="14" fill="#59636e">Class: Infrastructure · Subclass: Backend</text>
+  <line x1="264" y1="112" x2="816" y2="112" stroke="#d1d9e0"/>
+
+  <!-- stats -->
+  <g class="m" font-size="12">
+    <text x="264" y="142" fill="#59636e">CLOUD</text>
+    <rect x="352" y="132" width="400" height="10" rx="5" fill="#f6f8fa"/>
+    <rect class="bar" x="352" y="132" width="360" height="10" rx="5" fill="#1f2328"/>
+    <text x="816" y="142" text-anchor="end" fill="#1f2328">9</text>
+
+    <text x="264" y="170" fill="#59636e">BACKEND</text>
+    <rect x="352" y="160" width="400" height="10" rx="5" fill="#f6f8fa"/>
+    <rect class="bar b2" x="352" y="160" width="280" height="10" rx="5" fill="#1f2328"/>
+    <text x="816" y="170" text-anchor="end" fill="#1f2328">7</text>
+
+    <text x="264" y="198" fill="#59636e">DATA</text>
+    <rect x="352" y="188" width="400" height="10" rx="5" fill="#f6f8fa"/>
+    <rect class="bar b3" x="352" y="188" width="240" height="10" rx="5" fill="#1f2328"/>
+    <text x="816" y="198" text-anchor="end" fill="#1f2328">6</text>
+
+    <text x="264" y="226" fill="#59636e">SARCASM</text>
+    <rect x="352" y="216" width="400" height="10" rx="5" fill="#f6f8fa"/>
+    <rect class="bar b4" x="352" y="216" width="400" height="10" rx="5" fill="#9a6700"/>
+    <text x="816" y="226" text-anchor="end" fill="#9a6700">MAX</text>
+  </g>
+  <line x1="264" y1="248" x2="816" y2="248" stroke="#d1d9e0"/>
+
+  <!-- abilities -->
+  <g class="s" font-size="13">
+    <text x="264" y="276" fill="#1f2328" font-weight="600">Restore Drill</text>
+    <text x="264" y="296" fill="#59636e" font-size="12">Passive. Backups are tested, not trusted.</text>
+    <text x="548" y="276" fill="#1f2328" font-weight="600">Least Privilege</text>
+    <text x="548" y="296" fill="#59636e" font-size="12">Passive. Nobody gets more than they need.</text>
+  </g>
+</svg>

@@ -1,75 +1,54 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img alt="Deekshant Tilwani. I keep systems boring so products can be interesting." src="assets/header-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
+  <img alt="Character card. Deekshant Tilwani, class: Infrastructure, level 4. Cloud 9, Backend 7, Data 6, Sarcasm maxed." src="assets/card-light.svg" width="100%">
 </picture>
 
 <br>
 
-I run the cloud side of an early-stage SaaS company: the AWS account, the CI/CD behind eight repositories, and the servers everything lands on. When that is quiet, I write backend and data code in the product itself.
-
-Click around. Each line below opens.
-
-<details>
-<summary><code>$ cat now.txt</code></summary>
+I keep the cloud side of a SaaS product running, and write backend and data code when it is quiet. Below are a few quests from the job. Open one.
 
 <br>
 
-- Moving a MySQL warehouse to Postgres without anyone noticing
-- Making multi-tenant data isolation provable, not just likely
-- Turning every "how did we do this last time?" into a runbook
+<details>
+<summary><b>Quest &nbsp;·&nbsp; The Backup Nobody Had</b> &nbsp;<sub>difficulty ●●○</sub></summary>
+<br>
+
+> Source control had gone two months without a backup, and nothing would have told anyone.
+>
+> **Cleared by** nightly encrypted backups to S3, a separate encrypted copy of the secrets, and an alarm that fires when a backup does *not* arrive. Then restoring it on a throwaway server, because an untested backup is just a hope.
+>
+> <sub>Reward &nbsp;`Restore Drill` unlocked</sub>
 
 </details>
 
 <details>
-<summary><code>$ cat beliefs.txt</code></summary>
-
+<summary><b>Quest &nbsp;·&nbsp; Ten Quiet Days</b> &nbsp;<sub>difficulty ●●●</sub></summary>
 <br>
 
-1. A backup you have never restored is a hope, not a backup.
-2. An alarm that has never fired is the same thing as no alarm.
-3. An empty permission list means nothing is allowed. It never means everything.
-4. A merge is not a deploy, and a deploy is not a run.
-5. If a fix needs a sentence of explanation, the explanation goes in a runbook, not in someone's head.
+> A disconnect button looked fine and did nothing, for ten days, without one error.
+>
+> **Cleared by** finding three separate silent failures stacked on top of each other, each hiding the next.
+>
+> <sub>Reward &nbsp;+1 distrust of anything that "just works"</sub>
 
 </details>
 
 <details>
-<summary><code>$ ls ~/tools</code></summary>
-
+<summary><b>Quest &nbsp;·&nbsp; Whose Data Is This</b> &nbsp;<sub>difficulty ●●●</sub></summary>
 <br>
 
-```
-cloud   EC2  RDS  S3  IAM  KMS  VPC  CloudWatch  SNS  SSM
-ship    GitLab CI  self-hosted runners  nginx  systemd  pm2  Cloudflare
-build   Python  FastAPI  SQL  TypeScript  Dart  Rust
-```
-
-</details>
-
-<details>
-<summary><code>$ history | tail -3</code></summary>
-
-<br>
-
-```
-2026  cloud & infrastructure engineer
-2025  ai / backend engineering intern
-2022  b.tech, industrial iot
-```
-
-</details>
-
-<details>
-<summary><code>$ ./contact</code></summary>
-
-<br>
-
-[LinkedIn](https://www.linkedin.com/in/deekshant-tilwani/) · [deekshant661@gmail.com](mailto:deekshant661@gmail.com)
-
-Fair warning: I am sarcastically funny.
+> One customer with two connected organisations. The dashboard had to show exactly one organisation's rows: not both, and not none.
+>
+> **Cleared by** stamping every one of 631,464 raw rows with where it came from, then proving it on live data instead of assuming.
+>
+> <sub>Reward &nbsp;`Least Privilege` unlocked</sub>
 
 </details>
 
 <br>
 
-<sub>The repositories are below. The interesting ones have a README.</sub>
+**Equipped** &nbsp; AWS · GitLab CI · Linux · nginx · Python · FastAPI · SQL · TypeScript · Dart · Rust
+
+**Party invite** &nbsp; [LinkedIn](https://www.linkedin.com/in/deekshant-tilwani/) · [deekshant661@gmail.com](mailto:deekshant661@gmail.com)
+
+<sub>Side projects are in the repositories below.</sub>
