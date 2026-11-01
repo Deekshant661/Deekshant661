@@ -1,25 +1,75 @@
-<h1 align="center">Hello, I'm Deekshant </h1>
-<h3 align="center">A programmer.</h3>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img alt="Deekshant Tilwani. I keep systems boring so products can be interesting." src="assets/header-light.svg" width="100%">
+</picture>
 
-<img align="right" alt="coding" width="400" src="https://imarticus.org/blog/wp-content/uploads/2020/09/gtr.gif">
+<br>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=deekshant661&label=Profile%20views&color=0e75b6&style=flat" alt="deekshant661" /> </p>
+I run the cloud side of an early-stage SaaS company: the AWS account, the CI/CD behind eight repositories, and the servers everything lands on. When that is quiet, I write backend and data code in the product itself.
 
-- 📫 How to reach me **deekshant661@gmail.com**
+Click around. Each line below opens.
 
-- ⚡ Fun fact **I am sarcastically funny ;)**
+<details>
+<summary><code>$ cat now.txt</code></summary>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/deekshant tilwani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="deekshant tilwani" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/deekshant tilwani" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="deekshant tilwani" height="30" width="40" /></a>
-</p>
+<br>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+- Moving a MySQL warehouse to Postgres without anyone noticing
+- Making multi-tenant data isolation provable, not just likely
+- Turning every "how did we do this last time?" into a runbook
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=deekshant661&show_icons=true&locale=en&layout=compact" alt="deekshant661" /></p>
+</details>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=deekshant661&show_icons=true&locale=en" alt="deekshant661" /></p>
+<details>
+<summary><code>$ cat beliefs.txt</code></summary>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=deekshant661&" alt="deekshant661" /></p>
+<br>
+
+1. A backup you have never restored is a hope, not a backup.
+2. An alarm that has never fired is the same thing as no alarm.
+3. An empty permission list means nothing is allowed. It never means everything.
+4. A merge is not a deploy, and a deploy is not a run.
+5. If a fix needs a sentence of explanation, the explanation goes in a runbook, not in someone's head.
+
+</details>
+
+<details>
+<summary><code>$ ls ~/tools</code></summary>
+
+<br>
+
+```
+cloud   EC2  RDS  S3  IAM  KMS  VPC  CloudWatch  SNS  SSM
+ship    GitLab CI  self-hosted runners  nginx  systemd  pm2  Cloudflare
+build   Python  FastAPI  SQL  TypeScript  Dart  Rust
+```
+
+</details>
+
+<details>
+<summary><code>$ history | tail -3</code></summary>
+
+<br>
+
+```
+2026  cloud & infrastructure engineer
+2025  ai / backend engineering intern
+2022  b.tech, industrial iot
+```
+
+</details>
+
+<details>
+<summary><code>$ ./contact</code></summary>
+
+<br>
+
+[LinkedIn](https://www.linkedin.com/in/deekshant-tilwani/) · [deekshant661@gmail.com](mailto:deekshant661@gmail.com)
+
+Fair warning: I am sarcastically funny.
+
+</details>
+
+<br>
+
+<sub>The repositories are below. The interesting ones have a README.</sub>
